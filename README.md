@@ -25,7 +25,7 @@ Establish your server connection first. In server.js, set up your **port**. This
 
 <br>
 
-```
+```js
 const express = require('express');
 const app = express();
 const path = require("path");
@@ -41,7 +41,7 @@ If you decide to use a different **port number**, be sure to modify Producer.tsx
 
 <br>
 
-```
+```js
 const akc = new AtomicKafkaClient('http://localhost:3001')
 
 function socketProducerInvoke() {
